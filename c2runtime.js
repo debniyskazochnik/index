@@ -19004,9 +19004,9 @@ cr.behaviors.Rotate = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
-	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.behaviors.Rotate,
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.plugins_.Browser.prototype.acts.GoToURL
